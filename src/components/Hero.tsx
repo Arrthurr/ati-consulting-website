@@ -1,8 +1,8 @@
 export function Hero() {
   return (
-    <section className="relative pt-section-padding-mobile pb-section-padding-desktop md:pt-section-padding-desktop md:pb-[120px] px-gutter s-curve-bg">
+    <section className="relative pt-section-padding-mobile pb-section-padding-mobile md:pt-section-padding-desktop md:pb-[60px] px-gutter s-curve-bg">
       <div className="max-w-container-max mx-auto">
-        <div className="flex flex-col items-start text-left max-w-3xl min-w-0 z-10">
+        <div className="flex flex-col items-center text-center max-w-3xl min-w-0 z-10 mx-auto">
           <img
             alt="ATI Consulting Logo"
             className="h-24 md:h-32 w-auto mb-8 object-contain"
