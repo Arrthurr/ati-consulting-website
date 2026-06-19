@@ -24,7 +24,7 @@ export function About() {
           <span className="font-display text-xl text-secondary mb-6 block">
             Principal Culture Consultant | Leadership & Engagement Strategist
           </span>
-          <div className="prose prose-lg text-on-surface-variant font-body-md space-y-4 font-body-lg text-justify">
+          <div className="prose prose-lg text-on-surface-variant font-body-md space-y-4 font-body-lg text-left md:text-justify">
             <p className="font-body-lg text-body-lg">
               <strong>Angela T. Ingram</strong> is a respected culture and
               communication leader and former media executive with more than four
