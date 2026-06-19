@@ -3,7 +3,7 @@ export function Intro() {
     <section className="bg-surface-container-low py-section-padding-mobile md:py-section-padding-desktop px-gutter">
       <div className="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
         <div className="col-span-1 md:col-span-12">
-          <div className="prose prose-lg text-on-surface-variant font-body-md space-y-6 text-justify font-body-lg w-full">
+          <div className="prose prose-lg text-on-surface-variant font-body-md space-y-6 text-left md:text-justify font-body-lg w-full">
             <p className="font-body-lg text-primary leading-relaxed text-body-lg">
               <strong>ATI Consulting, LLC</strong> partners with organizations to
               build workplaces where leaders and teams feel supported, connected
