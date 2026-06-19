@@ -7,7 +7,8 @@
 }
 
 .s-curve-bg {
-  background:
+  @apply bg-background;
+  background-image:
     radial-gradient(
       circle at top right,
       rgba(254, 169, 69, 0.05) 0%,
