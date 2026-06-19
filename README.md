@@ -11,12 +11,21 @@ npm run dev
 
 Open the local URL shown in the terminal (typically `http://localhost:5173`).
 
-## Build
+## Deploy
+
+The site is hosted on [Netlify](https://ati-consulting-website.netlify.app). Pushes to `main` trigger a production deploy when the repo is linked in Netlify.
+
+Build settings (also in `netlify.toml`):
+
+- **Build command:** `npm run build`
+- **Publish directory:** `dist`
+
+To deploy manually from the CLI:
 
 ```bash
-npm run build
-npm run preview
+netlify deploy --prod
 ```
+
 
 ## Source assets
 
